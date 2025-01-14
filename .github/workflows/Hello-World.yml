@@ -1,1 +1,8 @@
 name: hello world workflow
+run-name: ${{ github.actor }} is starting github actions
+
+on:
+  push
+
+jobs:
+  name: test
