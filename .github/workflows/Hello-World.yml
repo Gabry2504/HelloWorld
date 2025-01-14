@@ -10,3 +10,5 @@ jobs:
     name: test
     steps:
       - run: echo "ciao a tutti"
+      - uses: actions/checkout@v4
+      - run: ls
