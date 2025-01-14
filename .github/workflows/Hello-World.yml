@@ -5,4 +5,5 @@ on:
   push
 
 jobs:
-  name: test
+  my_first_job:
+    name: test
